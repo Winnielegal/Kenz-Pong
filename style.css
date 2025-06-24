@@ -1,0 +1,53 @@
+body {
+    background: #181818;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#pong {
+    background: #222;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000;
+}
+
+#game-info {
+    margin-bottom: 8px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+#game-message {
+    margin-top: 18px;
+    font-size: 2em;
+    color: #FFD600;
+    height: 2em;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 12px 36px;
+    font-size: 1.1em;
+    background: #00FFB2;
+    color: #181818;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+#restart-btn:hover {
+    background: #FF006E;
+    color: #fff;
+}
